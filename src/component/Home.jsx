@@ -5,7 +5,7 @@ export default function Home(props) {
   return (
     <div>
       <center>
-        <h1>Welcome Home</h1>
+        <h1>Welcome Home Admin</h1>
         <h3>clicks {props.data.length}</h3>
         <button onClick={() => props.addCountHandler({ price: 100 })}>
           ADD Count
